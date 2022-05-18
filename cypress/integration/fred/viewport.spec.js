@@ -35,6 +35,11 @@
  it('open in iphone-x', ()=>{
      cy.viewport('iphone-x')
      cy.screenshot()
-    cy.wait(200)
+     cy.wait(200)
+  
+  it('open in 550 and 750', ()=>{
+     cy.viewport(550, 750)
+     cy.screenshot()
+     cy.wait(200)
  })
  })
